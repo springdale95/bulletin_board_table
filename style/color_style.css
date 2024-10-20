@@ -1,0 +1,8 @@
+:root {
+    --button: #1E3DAF;
+    --white: #ffffff;
+    --black4: rgba(0, 0, 0, 0.04);
+    --black8: rgba(0, 0, 0, 0.08);
+    --black10: rgba(0, 0, 0, 0.1);
+    --black40: rgba(0, 0, 0, 0.4);
+}

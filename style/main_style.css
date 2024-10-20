@@ -1,0 +1,98 @@
+.main {
+    max-width: 1920px;
+    height: 1120px;
+    background-color: var(--black4);
+}
+
+.aside {
+    width: 263px;
+    height: 920px;
+    background-color: var(--white);
+    position: relative;
+}
+
+.main_margins {
+    padding-top: 40px;
+    padding-bottom: 160px;
+    gap: 40px;
+}
+
+.user_card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--black10);
+    gap: 16px;
+    padding: 24px;
+}
+
+.card_word {
+    width: 40px;
+    height: 40px;
+    background-color: var(--black8);
+    align-content: center;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 24px;
+    color: var(--black40);
+}
+
+.aside_menu_button {
+    padding: 12px 0 12px 56px;
+    border-left: 2px solid var(--button);
+    margin: 12px 0 12px 0;
+}
+
+.aside_exit_button {
+    position: absolute;
+    bottom: 40px;
+    left: 24px;
+}
+
+.main_right_side {
+    width: 867px;
+}
+
+.right_side_top {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--black10);
+    height: 89px;
+}
+
+.filtration_margins {
+    margin: 24px 0 24px 0;
+}
+
+.bulletin_search {
+    width: 420px;
+    height: 40px;
+    border: 0;
+    outline: none;
+}
+
+.bulletin_search::placeholder {
+    padding-left: 16px;
+    color: var(--black40);
+}
+
+.for_search_position {
+    position: relative;
+}
+
+.input_search_position {
+    position: absolute;
+    right: 0px;
+    margin-right: 16px;
+}
+
+.table_grid {
+    display: grid;
+    grid-template-columns: 30% 15% 20% 20% auto;
+    grid-template-rows: repeat(9, 1fr);
+    column-gap: 20px;
+    row-gap: 8px;
+    justify-items: center;
+}
+
+.table_top {
+    
+}
