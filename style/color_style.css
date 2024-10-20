@@ -1,8 +1,13 @@
 :root {
     --button: #1E3DAF;
     --white: #ffffff;
-    --black4: rgba(0, 0, 0, 0.04);
-    --black8: rgba(0, 0, 0, 0.08);
-    --black10: rgba(0, 0, 0, 0.1);
-    --black40: rgba(0, 0, 0, 0.4);
+    --white12: rgb(255, 255, 255, 0.12);
+    --white50: rgb(255, 255, 255, 0.5);
+    --white60: rgb(255, 255, 255, 0.6);
+    --black: rgb(42, 47, 55);
+    --black4: rgba(42, 47, 55, 0.04);
+    --black8: rgba(42, 47, 55, 0.08);
+    --black10: rgba(42, 47, 55, 0.1);
+    --black40: rgba(42, 47, 55, 0.4);
+    --black60: rgba(42, 47, 55, 0.6);
 }

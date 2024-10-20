@@ -23,6 +23,7 @@
     border-bottom: 1px solid var(--black10);
     gap: 16px;
     padding: 24px;
+    height: 89px;
 }
 
 .card_word {
@@ -86,13 +87,29 @@
 
 .table_grid {
     display: grid;
-    grid-template-columns: 30% 15% 20% 20% auto;
-    grid-template-rows: repeat(9, 1fr);
-    column-gap: 20px;
-    row-gap: 8px;
-    justify-items: center;
+    grid-template-columns: 25% 20% 20% 10% auto;
+    column-gap: 40px;
+    padding-left: 25px;
 }
 
 .table_top {
-    
+    height: 40px;
+    color: var(--black60);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.table_bg_color {
+    background-color: var(--white);
+}
+
+.table_elements {
+    margin-top: 8px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.board_name {
+    font-weight: 700;
 }

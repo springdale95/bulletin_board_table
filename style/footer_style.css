@@ -1,0 +1,28 @@
+.footer {
+    max-width: 1920px;
+    height: 200px;
+}
+
+.footer_bg_color {
+    background-color: var(--black);
+}
+
+.span_before_logo {
+    color: var(--white60);
+    margin-left: 40px;
+    padding-left: 40px;
+    border-left: 1px solid var(--white50);
+}
+
+.link_padding {
+    padding: 0 20px 0 20px;
+}
+
+.footer_bottom {
+    padding-top: 24px;
+    margin-top: 40px;
+    border-top: 1px solid var(--white12);
+    color: var(--white60);
+    font-weight: 400;
+    font-size: 12px;
+}
