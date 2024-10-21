@@ -37,16 +37,46 @@
     color: var(--black40);
 }
 
+.card_name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.personal_account {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--black60);
+}
+
+.aside_grid {
+    display: grid;
+    grid-template-rows: repeat(5, 40px);
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
 .aside_menu_button {
-    padding: 12px 0 12px 56px;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 22px;
+}
+
+.aside_menu_button:focus {
     border-left: 2px solid var(--button);
-    margin: 12px 0 12px 0;
+    color: var(--button);
 }
 
 .aside_exit_button {
     position: absolute;
     bottom: 40px;
     left: 24px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .main_right_side {
@@ -57,6 +87,53 @@
     padding-bottom: 32px;
     border-bottom: 1px solid var(--black10);
     height: 89px;
+}
+
+.bulletin_title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.bulletin_number {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black60);
+}
+
+.add_button {
+    width: 130px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: var(--button);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.filtration_button {
+    width: 160px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: var(--black8);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.gap_filtration {
+    gap: 15px;
+}
+
+.page_numbers {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.page_button {
+    color: var(--black60);
+}
+
+.page_button:focus {
+    color: var(--black);
 }
 
 .filtration_margins {
@@ -73,6 +150,7 @@
 .bulletin_search::placeholder {
     padding-left: 16px;
     color: var(--black40);
+    padding-left: 16px;
 }
 
 .for_search_position {

@@ -29,3 +29,8 @@ body {
     word-break: normal;
     font-family: "Roboto", sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
